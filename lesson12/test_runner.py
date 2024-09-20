@@ -1,4 +1,3 @@
-import runner
 import unittest
 
 from lesson12.runner import Runner
