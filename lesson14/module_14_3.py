@@ -23,10 +23,10 @@ ikb = InlineKeyboardMarkup(
 
 ikbuy = InlineKeyboardMarkup(
     inline_keyboard = [
-        [InlineKeyboardButton(text='Product1', callback_data='product_buying')],
-        [InlineKeyboardButton(text='Product2', callback_data='product_buying')],
-        [InlineKeyboardButton(text='Product3', callback_data='product_buying')],
-        [InlineKeyboardButton(text='Product4', callback_data='product_buying')],
+        [InlineKeyboardButton(text='Product1', callback_data='product_buying'),
+         InlineKeyboardButton(text='Product2', callback_data='product_buying'),
+         InlineKeyboardButton(text='Product3', callback_data='product_buying'),
+         InlineKeyboardButton(text='Product4', callback_data='product_buying')],
     ]
 )
 
