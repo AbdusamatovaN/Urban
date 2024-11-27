@@ -18,7 +18,7 @@ async def get_users():
 
 @app.post('/user/{username}/{age}')
 async def new_user(username: str, age: int):
-    user_id = len(users) + 1 if users else 1
+    user_id = users[-1].id + 1 if users else 1
     user = User(id = user_id, username = username, age = age)
     users.append(user)
     return user
